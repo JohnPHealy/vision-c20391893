@@ -24,8 +24,8 @@ public class GameManager : MonoBehaviour
     public void RespawnPlayer()
     {
         player.transform.position = startPos;
-       score = 0;
-respawn.Invoke("");
+        score = 0;
+        respawn.Invoke("");
         UpdateUI();
     }
 

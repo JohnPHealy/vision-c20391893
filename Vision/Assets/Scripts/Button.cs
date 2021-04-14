@@ -5,16 +5,16 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
-public class PlayerInteraction : MonoBehaviour
+public class Button: MonoBehaviour
 {
     [SerializeField] private LayerMask playerLayers;
     [SerializeField] private UnityEvent interacted;
 
-    private Collider2D myCollider;
+    private CapsuleCollider2D myCollider;
 
     private void Start()
     {
-        myCollider = GetComponent<Collider2D>();
+        myCollider = GetComponent<CapsuleCollider2D>();
     }
 
 
@@ -25,6 +25,7 @@ public class PlayerInteraction : MonoBehaviour
             if (myCollider.IsTouchingLayers(playerLayers))
             {
                 interacted.Invoke();
+                Debug.Log("Collided");
             }
         }
     }
