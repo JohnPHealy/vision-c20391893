@@ -28967,24 +28967,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5588262379715833545, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: m_Size.x
-      value: 0.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 5588262379715833545, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: m_Size.y
-      value: 0.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 5588262379715833545, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 5588262379715833545, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.03
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
       propertyPath: playerLayers.m_Bits
-      value: 64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
       propertyPath: interacted.m_PersistentCalls.m_Calls.Array.size
@@ -28992,18 +28980,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
       propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
       propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1551975525}
-    - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
@@ -29011,35 +28991,19 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
       propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
       propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UnityEngine.Collider2D, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
       propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
       propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8086650107899580591, guid: 33416492e017e414f8bb10d1ef0a42f5, type: 3}
-      propertyPath: interacted.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []

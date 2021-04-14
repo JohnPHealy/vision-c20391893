@@ -207,8 +207,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.76, y: 0.98}
+  m_Offset: {x: -0.04, y: 0.03}
+  m_Size: {x: 0.66, y: 0.73}
   m_Direction: 0
 --- !u!114 &8086650107899580591
 MonoBehaviour:
@@ -224,19 +224,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
   interacted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5588262379715833541}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
