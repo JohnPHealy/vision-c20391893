@@ -24,6 +24,7 @@ public class Button : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             interacted.Invoke();
+            myCollider.enabled = false;
             Debug.Log("Collided");
         }
 
