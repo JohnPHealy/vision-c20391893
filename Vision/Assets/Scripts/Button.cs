@@ -7,14 +7,16 @@ using UnityEngine.InputSystem;
 
 public class Button : MonoBehaviour
 {
-    //[SerializeField] private LayerMask playerLayers;
-    [SerializeField] private UnityEvent interacted;
+    
+    [SerializeField] private UnityEvent activate;
+    [SerializeField] private UnityEvent deactivate;
 
     private CapsuleCollider2D myCollider;
 
     private void Start()
     {
         myCollider = GetComponent<CapsuleCollider2D>();
+         Timer timer = FindObjectOfType<Timer>();
     }
 
 
@@ -23,10 +25,16 @@ public class Button : MonoBehaviour
 
         if (other.gameObject.tag == "Player")
         {
-            interacted.Invoke();
+            activate.Invoke();
             myCollider.enabled = false;
             Debug.Log("Collided");
+            Timer.timerIsRunning =true;
         }
 
+        if (Timer.timerIsRunning==false)
+        {
+           deactivate.Invoke();
+       }
+        
     }
 }

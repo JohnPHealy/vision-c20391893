@@ -13,8 +13,9 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PLayerInteraction.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Button.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qWkqrWkkv5Z1obi93cWtzXAnqd" />
@@ -66,6 +67,7 @@
       <workItem from="1618391841064" duration="3733000" />
       <workItem from="1618422631124" duration="442000" />
       <workItem from="1618425200989" duration="612000" />
+      <workItem from="1618575938676" duration="4843000" />
     </task>
     <servers />
   </component>
