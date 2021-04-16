@@ -27,14 +27,13 @@ public class Button : MonoBehaviour
         {
             activate.Invoke();
             myCollider.enabled = false;
-            Debug.Log("Collided");
-            Timer.timerIsRunning =true;
+            //Timer.timerIsRunning =true;
         }
 
-        if (Timer.timerIsRunning==false)
-        {
-           deactivate.Invoke();
-       }
+       // if (Timer.timerIsRunning==false)
+       // {
+           //deactivate.Invoke();
+       //}
         
     }
 }
