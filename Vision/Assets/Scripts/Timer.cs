@@ -1,51 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class Timer : MonoBehaviour
+/*public class Timer : MonoBehaviour
 {
-
+    [SerializeField] public UnityEvent timerEnd;
+    [SerializeField] public float timerDuration;
     // Start is called before the first frame update
     //public static bool timerIsRunning = false;
 
-    private IEnumerator coroutine;
+    
     void Start()
     {
-
-        coroutine = WaitandPrint(2.0f);
-        StartCoroutine(coroutine);
-        print("Starting"+Time.time);
+        
     }
 
 
-    private IEnumerator WaitandPrint(float waitTime)
+    IEnumerator SetTimer()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(waitTime);
-            print("WaitAndPrint"+ Time.time);
-        }
+        Debug.Log("Start");
+        yield return new WaitForSeconds(timerDuration);
+       FindObjectOfType<Button>().Color = false;
+
     }
 
     // Update is called once per frame
-       /* void Update()
+        void Update()
         {
-            if (timerIsRunning)
-            {
-
-                
-            }
-            else
-            {
-                Debug.Log("Time up");
-                timerIsRunning = false;
-
-            }
-        }
-    }
-    */
+            
+          }
 }
+*/
        
     
 
