@@ -3,7 +3,6 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
-      <Path>Assets</Path>
       <Path>Library/PackageCache/com.unity.2d.animation@5.0.3</Path>
       <Path>Library/PackageCache/com.unity.2d.common@4.0.3</Path>
       <Path>Library/PackageCache/com.unity.2d.path@4.0.1</Path>
@@ -18,6 +17,7 @@
       <Path>Library/PackageCache/com.unity.ide.vscode@1.2.3</Path>
       <Path>Library/PackageCache/com.unity.inputsystem@1.0.2</Path>
       <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>
+      <Path>Library/PackageCache/com.unity.postprocessing@3.0.3</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.20</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.1</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.4.5</Path>
@@ -26,8 +26,10 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
+      <Path>Builds</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
